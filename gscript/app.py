@@ -10,7 +10,7 @@ if os.path.exists('script.sql'):
     os.remove('script.sql')
 
 ### read excel ###
-data_frame = pnd.read_excel('~/Desktop/data_gscript.xlsx')
+data_frame = pnd.read_excel('data_gscript.xlsx')
 
 ### generate query ###
 script_array = query_generate.script_generate(data_frame)
